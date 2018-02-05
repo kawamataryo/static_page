@@ -1,0 +1,32 @@
+body {
+    padding: 0px;
+    background-color: #E2E9AE;
+    text-align: center;
+}
+.wrap {
+    display: inline-block;
+    max-width: 980px;
+}
+.container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+}
+aside {
+    flex-basis: 200px;
+}
+aside ul {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+    -webkit-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+}
+article {
+    -webkit-flex-grow: 2;
+    flex-grow: 2;
+    padding: 30px;
+    background-color: #fff;
+}
