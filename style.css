@@ -1,32 +1,57 @@
+/*全体*/
 body {
     padding: 0px;
     background-color: #E2E9AE;
-    text-align: center;
-}
-.wrap {
-    display: inline-block;
-    max-width: 980px;
 }
 .container {
+    width: 1024px;
+    margin: 30px auto 30px auto;
     display: -webkit-flex;
     display: flex;
     -webkit-align-items: flex-start;
     align-items: flex-start;
+    justify-content: center;
 }
+/*ヘッダー*/
+header {
+    margin: 30px auto;
+}
+header h1 {
+    width: 1024px;
+    margin: auto;
+    color: #35AC71;
+}
+/*サイドバー*/
 aside {
-    flex-basis: 200px;
+    background-color: #35AC71;
+    flex-basis: 20%;
+    margin-right: 30px;
+    padding: 10px;
 }
 aside ul {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-align-items: flex-start;
-    align-items: flex-start;
-    -webkit-flex-direction: column-reverse;
-    flex-direction: column-reverse;
+    margin: 0;
+    padding-left: 30px;
+}
+aside ul li {
+    color: #fff;
+    margin-bottom: 10px;
+}
+aside ul li:last-child {
+    margin-bottom: 0;
+}
+/*メイン*/
+main {
+    flex-basis: 80%;
 }
 article {
     -webkit-flex-grow: 2;
     flex-grow: 2;
     padding: 30px;
     background-color: #fff;
+}
+article h1 {
+    color: #35AC71;
+    margin-top: 0;
+    padding: 10px;
+    border: solid 3px red;
 }
