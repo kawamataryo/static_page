@@ -55,3 +55,14 @@ article h1 {
     padding: 10px;
     border: solid 3px red;
 }
+/*上下スクロール*/
+.pageScroll {
+    position: fixed;
+    top: 100px;
+    right: 100px;
+    display: flex;
+    flex-direction:column;
+}
+.pageScroll button {
+    cursor: pointer;
+}
