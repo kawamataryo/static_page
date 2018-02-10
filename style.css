@@ -15,6 +15,20 @@ body {
     justify-content: center;
     margin-top: 30px;
 }
+/*ヘッダー*/
+header {
+    margin: 30px auto;
+}
+header h1 {
+    width: 1024px;
+    margin: auto;
+    color: #35AC71;
+}
+/*ナビ*/
+.nav-change-btn {
+    cursor: pointer;
+    padding: 5px 30px;
+}
 .flex-nav {
     display: -webkit-flex;
     display: flex;
@@ -23,6 +37,7 @@ body {
     list-style-type: none;
     background-color: #fff;
     padding-left: 0;
+    margin: 0px;
 }
 .flex-nav li {
     -webkit-box-flex: 1;
@@ -40,16 +55,6 @@ body {
 .flex-nav li:last-child {
     border-right: 2px solid #35AC71;
 }
-/*ヘッダー*/
-header {
-    margin: 30px auto;
-}
-header h1 {
-    width: 1024px;
-    margin: auto;
-    color: #35AC71;
-}
-/*ナビ*/
 
 /*サイドバー*/
 aside {
